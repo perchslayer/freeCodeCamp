@@ -6,6 +6,8 @@ title: The Linux, Apache, MySQL, and PHP Stack
 
 One of the most common configurations for a Linux server is the LAMP stack, named after the most frequently used components (Linux, Apache, MySQL, and PHP). The standard LAMP stack is open source, freely available, and thoroughly documented, providing a flexible, standardized, and secure platform for website and web application development. 
 
+Many popular web-based application systems are built on the LAMP stack, such Content Management Systems (WordPress, Drupal, Joomla), Learning Management Systems (Moodle), and eCommerce Platforms (Magento, PrestaShop) to name a few.
+
 ### Linux
 
 The operating system component of the LAMP stack is usually a distribution of Linux, and many popular Linux distributions such as Ubuntu and Red Hat have semi-automated methods for installed and configuring the other components. When Mac OSX is substituted for Linux, the resulting stack is sometimes referred as the MAMP stack. Similarly, when the stack is built in a Windows environment, it is sometimes referred to as a WAMP stack. 
@@ -22,3 +24,7 @@ The relational database management system (RDBMS) layer of the LAMP stack is MyS
 
 The server programming language or middleware layer of the LAMP stack is usually PHP, though it has frequently been substituted with (or used alongside) Python, Perl, or other languages. 
 
+#### Free-standing LAMP Development Environment
+
+It is sometimes advatageous to implement a _self-contained_ or _isolated_ development environment of the LAMP stack for develeopment on a client PC or laptop, particularly if the client does not use the Linux Operating System. A stable, mature, cross-platform, open source example of this is [XAMPP](https://www.apachefriends.org/index.html).
+- 
